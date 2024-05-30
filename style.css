@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+body{
+    background-color: #222;
+
+}
+.card{
+    width: 90%;
+    max-width: 470px;
+    background:linear-gradient(135deg, #ffffff,#ff8ba0,#e41f7b,#86003c);
+    color: #fff;
+    margin: 20px auto 0px;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search input{
+    border: 0;
+    outline: 0;
+    background-color: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 45px;
+    border-radius: 30px;
+    flex:1;
+    margin-right: 16px;
+}
+.search button{
+    border: 0;
+    outline: 0;
+    background-color: #ebfffc;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search button img{
+    width: 20px;
+}
+
+.wheater-icon{
+    width: 170px;
+    margin-top: 30px;
+}
+.wheater h1{
+    font-size: 65px;
+    font-weight: 500;
+}
+.wheater h2{
+    font-size:40px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 0 20px;
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    /* gap: 30px; */
+
+}
+.col img{
+    width:30%;
+    margin-right: 10px;
+}
+
+.humidity, .Wind{
+    font-size: 20px;
+}
+.wheater{
+    display: none;
+}
+.error{
+    margin-left: 10px;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+    display: none;
+}
